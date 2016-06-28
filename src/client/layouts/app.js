@@ -21,9 +21,9 @@ export default ({
               </a>
               <div>
                 <a className="links" href="#about">About</a>
-                <a className="links" href="#">Portfolio</a>
-                <a className="links" href="#">Testimonals</a>
-                <a className="links" href="#">Contact</a>
+                <a className="links" href="#portfolio">Portfolio</a>
+                <a className="links" href="#testimonals">Testimonals</a>
+                <a className="links" href="#contact">Contact</a>
               </div>
             </div>
           </div>

@@ -23,11 +23,13 @@
 }
 .greeting {
     position: absolute;
+    width: 100%;
 }
 .greetingContainer {
     position: relative;
     top: 400px;
-    left: 630px;
+    text-align: center;
+    width:100%;
 }
 .dataGreeting{
     color: white;

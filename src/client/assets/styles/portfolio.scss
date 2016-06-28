@@ -1,0 +1,62 @@
+.portfolioContainer{
+    background-color: #E5E9EC;
+    width: 100%;
+    height: 100%;
+}
+.portfolioSection{
+    min-height: 400px;
+    margin: 0 auto;
+}
+.portfolioStop{
+    display: block;
+    position: relative;
+    top: -119px;
+    visibility: hidden;
+}
+.portfolioTitle{
+    font-size: 75px;
+    padding: 80px 0 60px 0;
+    text-align: center;
+}
+.cardImage{
+    height: 350px;
+    width: 600px;
+    box-shadow: 3px 3px 5px #192B34;
+    border: 1px solid #222222;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin-top: 40px;
+    position:relative;
+}
+
+.overlay {
+    color:#fff;
+    position:absolute;
+    right: 0; bottom: 5px;
+    top:0; left:0;
+    opacity: 0;
+    background:rgba(0,0,0,0.7);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    text-decoration: none;
+}
+.card:hover > .overlay {
+    opacity:1;
+}
+.cardText{
+    padding: 160px 40px 0 40px;
+}
+.tiyLogo{
+    height: 60px;
+    width: auto;
+}
+.cardInfo{
+    display: flex;
+}

@@ -3,7 +3,7 @@ import React from "react";
 import { data } from "api/data";
 import store from "store";
 import About from "./about";
-import Porfolio from "./portfolio";
+import Portfolio from "./portfolio";
 
 require("assets/styles/data.scss");
 require("font-awesome-webpack");
@@ -25,6 +25,7 @@ export default React.createClass({
                 <img src={ redrock } className="chrisImage" style={ { position: "inherit", display: "block", visibility: "hidden" } } />
               </div>
               <About/>
+              <Portfolio/>
             </div>
         )
     }
