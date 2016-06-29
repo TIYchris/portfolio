@@ -119,7 +119,7 @@ export default React.createClass({
                     consit of some of the projects I completed when was a student of The Iron Yard.
                   </p>
                   <h3>Personal</h3>
-                  <p>When I am not banging away at my keyboard. I enjoy to spending time with the family, watching my kids sporting events, watching live music and being the head
+                  <p className="Personal">When I am not banging away at my keyboard. I enjoy to spending time with the family, watching my kids sporting events, watching live music and being the head
                     chef in my kitchen. I am a big fan of MMA and the NFL mainly the Minnesota Vikings. Other family activities I enjoy include Bowling, Swimming, Hiking, Camping,
                     Movies, Card and board games.</p>
                 </div>

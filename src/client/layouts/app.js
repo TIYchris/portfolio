@@ -22,7 +22,7 @@ export default ({
               <div>
                 <a className="links" href="#about">About</a>
                 <a className="links" href="#portfolio">Portfolio</a>
-                <a className="links" href="#testimonals">Testimonals</a>
+                <a className="links" href="#testimonial">Testimonials</a>
                 <a className="links" href="#contact">Contact</a>
               </div>
             </div>

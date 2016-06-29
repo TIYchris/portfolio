@@ -39,7 +39,7 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>This was my final project, I teamed up with Dave Blodgett(from the back-end class). We created an application that connects foodtrucks and customers.
+                          <div>This was my final project, I teamed up with Dave Blodgett (from the back-end class). We created an application that connects foodtrucks and customers.
                             It allows foodtrucks to post their location, how long they will be there and any specials. The application also will generate text and email messages
                             to their customers. The customers can log in and view food truck locations on a google maps api and save their favorite trucks. I did all graphic
                             desinging for this project. Tools used React, Lodash, HTML and CSS</div>
@@ -53,7 +53,7 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>In this school project, I created a todos list from mocks. This application will record a list of todos and remove them upon completion. Tools used
+                          <div>In this school project, I created a todo's list from mocks. This application will record a list of todo's and remove them upon completion. Tools used
                             React, HTML and CSS.</div>
                         </div>
                       </div>
@@ -102,7 +102,7 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>In this class project, I created a skater website with an animated photo carousel from mocks. Tools used Bootstrap, HTML and CSS.</div>
+                          <div>In this class project, I created a skater website from mocks, with an animated photo carousel. Tools used Bootstrap, HTML and CSS.</div>
                         </div>
                       </div>
                     </a>

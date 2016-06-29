@@ -4,6 +4,7 @@ import { data } from "api/data";
 import store from "store";
 import About from "./about";
 import Portfolio from "./portfolio";
+import Testimonial from "./testimonial";
 
 require("assets/styles/data.scss");
 require("font-awesome-webpack");
@@ -26,6 +27,7 @@ export default React.createClass({
               </div>
               <About/>
               <Portfolio/>
+              <Testimonial/>
             </div>
         )
     }
