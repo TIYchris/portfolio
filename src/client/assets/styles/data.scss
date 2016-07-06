@@ -9,10 +9,10 @@
 }
 
 .dataTitle{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 75px;
     text-align: center;
     padding-top: 40px;
+    margin-bottom: 5px;
 }
 .dataTitleContainer{
     width: 100%;
@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     background-color: #8899AA;
+    padding-bottom: 40px;
 }
 .greeting {
     position: absolute;
@@ -32,7 +33,7 @@
     width:100%;
 }
 .dataGreeting{
-    color: white;
+    color: #FFFDF7;
     font-size: 40px;
 }
 .skills{
@@ -44,20 +45,10 @@
     padding: 0px 15px;
     font-size: 16px;
 }
-.resume{
-    color: black;
-}
-.resumeContainer{
-    text-align: center;
-    border: 2px solid #222222;
-    border-radius: 25px;
-    width:200px;
-    height:35px;
-    margin: 0 auto;
-    padding-top:15px;
-    box-shadow: 3px 3px 5px #192B34;
-    text-decoration: none;
-}
+
 .dataPage{
     margin-top:-1px;
+}
+h3 {
+    font-weight: normal;
 }

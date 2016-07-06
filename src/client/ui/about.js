@@ -37,9 +37,7 @@ export default React.createClass({
                     <span className="bull">•</span>
                     <span>JavaScript</span>
                   </div>
-                  <a href="#" className="resumeContainer">
-                    <div className="resume">Download my resume</div>
-                  </a>
+                  <a href="#" className="resume">Download my resume</a>
                 </div>
               </div>
               <div className="aboutContainer">
@@ -51,7 +49,7 @@ export default React.createClass({
                     <div className="description">Junior front-end developer, graduate of The Iron Yard.  Skills I aquired there were invaulable, the class was focused in React.  As for my experience, I
                       was givin an oppertunity to be able to launch my career in the tech industry in a start up.  In my time there I worked with Angular as well as mobile development.</div>
                   </div>
-                  <h3 className="mySkills">Some of my skills are:</h3>
+                  <h3 className="mySkills">Skills</h3>
                   <div className="logoList">
                     <div>
                       <img src={ html } className="logos" />

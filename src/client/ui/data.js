@@ -1,10 +1,10 @@
 import _ from "lodash";
 import React from "react";
-import { data } from "api/data";
 import store from "store";
 import About from "./about";
 import Portfolio from "./portfolio";
 import Testimonial from "./testimonial";
+import Contact from "./contact";
 
 require("assets/styles/data.scss");
 require("font-awesome-webpack");
@@ -28,6 +28,7 @@ export default React.createClass({
               <About/>
               <Portfolio/>
               <Testimonial/>
+              <Contact/>
             </div>
         )
     }

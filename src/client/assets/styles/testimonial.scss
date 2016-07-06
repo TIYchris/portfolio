@@ -24,12 +24,11 @@
 }
 .testimonialName{
     font-size: 30px;
-    float: right;
 }
 .testimonialGroup{
     width: 600px;
     height: 150px;
-    background-color: white;
+    background-color: #FFFDF7;
     margin-bottom: 40px;
     padding: 60px;
     box-shadow: 3px 3px 5px #192B34;
@@ -63,4 +62,15 @@ blockquote cite {
 
 blockquote cite:before {
     content: "\2014 \2009";
+}
+.testimonialContact{
+    color: #999999;
+    margin-left: 40px;
+    margin-top: -5px;
+    font-size: 14px;
+}
+.testimonialCard{
+    display: flex;
+    flex-direction: column;
+    float:right;
 }
