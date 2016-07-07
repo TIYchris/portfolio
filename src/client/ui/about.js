@@ -20,6 +20,7 @@ var backbone = require("assets/images/logos/backbone.png")
 var socketio = require("assets/images/logos/socketio.gif")
 
 var tiy = require("assets/images/tiy.png")
+var resume = require("file?name=[name].[ext]!assets/docs/ResumeChris.docx")
 
 
 export default React.createClass({
@@ -37,7 +38,7 @@ export default React.createClass({
                     <span className="bull">•</span>
                     <span>JavaScript</span>
                   </div>
-                  <a href="#" className="resume">Download my resume</a>
+                  <a href={ resume } className="resume">Download my resume</a>
                 </div>
               </div>
               <div className="aboutContainer">
@@ -105,8 +106,8 @@ export default React.createClass({
                     </div>
                   </div>
                   <h3 className="goals">Goals</h3>
-                  <p className="aboutMe">My goals as a developer are to take my skills too learn and grow form other Senior devolpers so we can build high quality and fully resposive applications.
-                    Prior to this carreer I spent many years in sales as well as management in retail and fastfood.</p>
+                  <p className="aboutMe">My goal as a junior developer are to take the skills I have acquired and to learn and grow form other Senior developers so I can build high quality and fully
+                    responsive applications. Prior to this carreer I spent many years in sales as well as management in retail and fastfood.</p>
                   <div className="tiyTitle">
                     <h3 className="tiyName">The Iron Yard</h3>
                     <a target="blank" href="https://www.theironyard.com/"><img src={ tiy } className="tinyTiyLogo" /></a>

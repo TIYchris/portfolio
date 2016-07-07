@@ -28,8 +28,8 @@ export default React.createClass({
                   <div className="card">
                     <img src={ nwc } className="cardImage" />
                     <a target="_blank" href="http://www.nextwaveconnect.com/" className="overlay">
-                      <div className="cardText">As paid intern I paired with senior devoplers to work on a social media application. Some of the tasks I completed were a text editor and I was a member
-                        of a three person team that built the ionic mobile app to compliment the web app. Tools used Angular, JQuery, Lodash, Markdown HTML and CSS</div>
+                      <div className="cardText">As a paid intern I paired with senior developers to work on a social media application. Some of the tasks I completed were a rich text editor and I was
+                        a member of a three-person team that built the ionic mobile app to compliment the web app. Tools used Angular, JQuery, Lodash, Markdown HTML and CSS</div>
                     </a>
                   </div>
                   <div className="card">
