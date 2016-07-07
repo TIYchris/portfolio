@@ -28,8 +28,9 @@ export default React.createClass({
                   <div className="card">
                     <img src={ nwc } className="cardImage" />
                     <a target="_blank" href="http://www.nextwaveconnect.com/" className="overlay">
-                      <div className="cardText">As a paid intern I paired with senior developers to work on a social media application. Some of the tasks I completed were a rich text editor and I was
-                        a member of a three-person team that built the ionic mobile app to compliment the web app. Tools used Angular, JQuery, Lodash, Markdown HTML and CSS</div>
+                      <div className="cardText">As a paid intern I paired with senior developers to work on a social media application. At Smart Social Media, I worked on a rich text editor (for blog
+                        editing) and was a member of a three-person team that built the company's Ionic mobile app. Tools used include Angular, jQuery, Lodash, Markdown HTML
+                        and CSS</div>
                     </a>
                   </div>
                   <div className="card">
@@ -38,10 +39,10 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>This was my final project, I teamed up with Dave Blodgett (from the back-end class). We created an application that connects foodtrucks and customers.
-                            It allows foodtrucks to post their location, how long they will be there and any specials. The application also will generate text and email messages
-                            to their customers. The customers can log in and view food truck locations on a google maps api and save their favorite trucks. I did all graphic
-                            desinging for this project. Tools used React, Lodash, HTML and CSS</div>
+                          <div>This was my final project, and I teamed up with Dave Blodgett (from the back-end development class). We created an application that connects food trucks
+                            and customers. It allows food trucks to post their location, how long they will be there and any specials they may have. The application also sends
+                            text and email messages to their customers. Customers can log in and view food truck locations on a map (Google Maps) and save their favorite trucks.
+                            I did all the graphic design for this project. Tools used include React, Lodash, HTML and CSS</div>
                         </div>
                       </div>
                     </a>
@@ -52,8 +53,8 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>In this school project, I created a todo's list from mocks. This application will record a list of todo's and remove them upon completion. Tools used
-                            React, HTML and CSS.</div>
+                          <div>In this school project, I created a todo's list from mockups provided by the instructor. This application records a list of todo's and removes them
+                            upon completion. Tools used include React, HTML and CSS.</div>
                         </div>
                       </div>
                     </a>
@@ -64,8 +65,8 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>In this school project, I created a chat room that allows users to customize their converastions. I did all graphic designs for this project. Tools
-                            used React, socket.io, HTML and CSS.</div>
+                          <div>In this school project, I created a chat room that allows users to customize their conversations. I did all graphic designs for this project. Tools
+                            used include React, socket.io, HTML and CSS.</div>
                         </div>
                       </div>
                     </a>
@@ -76,8 +77,8 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>In this class project, I created a resturant website from mocks. This project retreives it's data from an API's database. Tools used React, Google
-                            APIs, HTML and CSS.
+                          <div>In this class project, I created a restaurant website from mockups provided by the instructor. This project retrieves its data from a database-driven
+                            API. Tools used include React, Google APIs, HTML and CSS.
                           </div>
                         </div>
                       </div>
@@ -89,8 +90,8 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>In this class project, I created a game of war. This is a player versus computer game, the object of the game is win all the cards. Tools Used Bootstrap
-                            HTML and CSS. I did all the graphic designing for this project.</div>
+                          <div>In this class project, I created a game of war. This is a player-vs-computer game. The object of the game is win all the cards. Tools used include
+                            Bootstrap HTML and CSS. I did all the graphic design for this project.</div>
                         </div>
                       </div>
                     </a>
@@ -101,7 +102,8 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>In this class project, I created a skater website from mocks, with an animated photo carousel. Tools used Bootstrap, HTML and CSS.</div>
+                          <div>In this class project, I created a "Skater"-themed website from mockups provided by the instructor, with an animated photo carousel. Tools used include
+                            Bootstrap, HTML and CSS.</div>
                         </div>
                       </div>
                     </a>
@@ -112,8 +114,8 @@ export default React.createClass({
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
-                          <div>In this class project, I created an application that keeps track of your poker wins and losses. I did all the graphic designing for this project. Tools
-                            used Backbone, HTML and CSS.</div>
+                          <div>In this class project, I created an application that keeps track of your poker wins and losses. I did all the graphic design for this project. Tools
+                            used include Backbone, HTML and CSS.</div>
                         </div>
                       </div>
                     </a>

@@ -47,8 +47,9 @@ export default React.createClass({
                     <div>
                       <img src={ headshot } className="headshot" />
                     </div>
-                    <div className="description">Junior front-end developer, graduate of The Iron Yard.  Skills I aquired there were invaulable, the class was focused in React.  As for my experience, I
-                      was givin an oppertunity to be able to launch my career in the tech industry in a start up.  In my time there I worked with Angular as well as mobile development.</div>
+                    <div className="description">Junior front-end developer, recent graduate of The Iron Yard.  The skills I acquired at The Iron Yard were invaluable, and the curriculum's heavy focus on
+                      React gave me a solid foundation in modern web app development.  As for my experience, I was given an opportunity to launch my career in the tech industry
+                      in a start up, as an intern at Smart Social Media.  In my time there I worked on an Angular web app as well as an Ionic iOS/Android app.</div>
                   </div>
                   <h3 className="mySkills">Skills</h3>
                   <div className="logoList">
@@ -98,7 +99,7 @@ export default React.createClass({
                     </div>
                     <div>
                       <img src={ google } className="logos" />
-                      <div className="logoDescription">Google maps api</div>
+                      <div className="logoDescription">Google Maps API</div>
                     </div>
                     <div>
                       <img src={ animation } className="logos" />
@@ -106,21 +107,21 @@ export default React.createClass({
                     </div>
                   </div>
                   <h3 className="goals">Goals</h3>
-                  <p className="aboutMe">My goal as a junior developer are to take the skills I have acquired and to learn and grow form other Senior developers so I can build high quality and fully
-                    responsive applications. Prior to this carreer I spent many years in sales as well as management in retail and fastfood.</p>
+                  <p className="aboutMe">My goals as a Junior Developer are to apply the skills I have acquired, to learn and grow from other developers, and build high quality and fully responsive
+                    applications. Prior to rebooting my career, I spent many years in sales as well as management in retail and fast-food.</p>
                   <div className="tiyTitle">
                     <h3 className="tiyName">The Iron Yard</h3>
                     <a target="blank" href="https://www.theironyard.com/"><img src={ tiy } className="tinyTiyLogo" /></a>
                   </div>
                   <p className="education">
-                    The Iron Yard is a code school that I attended in the Febuary of 2016. This was a grueling 12 week program, Heavily focuses in React, that takes students from little
-                    or no code experience and gets them up to speed. I ended up coding around 70 hours a week to keep up during this 12 week program. Most of my portfolio does
-                    consit of some of the projects I completed when was a student of The Iron Yard.
+                    The Iron Yard is a code school that I attended from Febuary to May 2016. This is a grueling 12 week program, heavily focused on React, that takes students from little
+                    or no code experience and gets them up to speed. I spent around 70 hours a week coding to keep up during this 12 week program. Much of my portfolio consists
+                    of projects I completed when was a student of The Iron Yard.
                   </p>
                   <h3>Personal</h3>
-                  <p className="Personal">When I am not banging away at my keyboard. I enjoy to spending time with the family, watching my kids sporting events, watching live music and being the head
-                    chef in my kitchen. I am a big fan of MMA and the NFL mainly the Minnesota Vikings. Other family activities I enjoy include Bowling, Swimming, Hiking, Camping,
-                    Movies, Card and board games.</p>
+                  <p className="Personal">When I am not banging away at my keyboard, I enjoy spending time with the family, watching my kids sporting events, watching live music and being the head
+                    chef in my kitchen. I am a big fan of MMA and the NFL (Go Vikings!). Other family activities I enjoy include bowling, swimming, hiking, camping, movies,
+                    card and board games.</p>
                 </div>
               </div>
             </div>

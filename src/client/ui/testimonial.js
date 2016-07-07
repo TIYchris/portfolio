@@ -17,7 +17,7 @@ export default React.createClass({
                     as a web, mobile, and full-stack developer. Any team looking for junior developers would be smart to hire him.
                     <div className="testimonialCard">
                       <cite className="testimonialName">David Carley</cite>
-                      <div className="testimonialContact">CIO Blitz Pick</div>
+                      <div className="testimonialContact">CTO Blitz Pick</div>
                     </div>
                   </blockquote>
                 </div>

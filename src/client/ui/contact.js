@@ -13,7 +13,8 @@ export default React.createClass({
             <div className="containerContact">
               <a className="contactStop" name="contact"></a>
               <div className="contactTitle">Hire Chris</div>
-              <div className="contactText">Please fill out the form below to enquire about hiring me. To learn about how I work and the value I can bring to your project, please visit About or Portfolio.</div>
+              <div className="contactText">Please fill out the form below to inquire about hiring me. To learn about how I work and the value I can bring to your project, please visit About or Portfolio,
+                or drop me an email.</div>
               <div className="formContact">
                 <form>
                   <div className="group">

@@ -19,7 +19,7 @@ export default React.createClass({
                 <img src={ redrock } className="chrisImage" />
                 <div className="greeting">
                   <div className="greetingContainer">
-                    <div className="dataGreeting">Hello, My name is Chris Bergstrom </div>
+                    <div className="dataGreeting">Hello, my name is Chris Bergstrom </div>
                     <div className="dataGreeting">and I am a Junior Developer in Las Vegas, NV</div>
                   </div>
                 </div>
