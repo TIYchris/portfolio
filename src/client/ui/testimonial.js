@@ -12,29 +12,12 @@ export default React.createClass({
               <div className="testimonialTitle">Testimonials</div>
               <div className="testimonialArea">
                 <div className="testimonialGroup">
-                  <blockquote ClassName="testimonialInfo">Bacon ipsum dolor amet salami ball tip kevin pastrami chuck shank jowl prosciutto boudin leberkas brisket. Chicken spare ribs beef ribs, pig kevin tongue flank
-                    salami pork belly pork kielbasa shank.
+                  <blockquote ClassName="testimonialInfo">I worked closely with Chris at Smart Social Media for eight months, serving as his mentor, and have continued in that role since. Chris is a diligent developer,
+                    with an aptitude and passion for building attractive and responsive modern web designs. He,s still early in his career, but I believe he has a bright future
+                    as a web, mobile, and full-stack developer. Any team looking for junior developers would be smart to hire him.
                     <div className="testimonialCard">
                       <cite className="testimonialName">David Carley</cite>
-                      <div className="testimonialContact">Captian pc</div>
-                    </div>
-                  </blockquote>
-                </div>
-                <div className="testimonialGroup">
-                  <blockquote ClassName="testimonialInfo">Bacon ipsum dolor amet salami ball tip kevin pastrami chuck shank jowl prosciutto boudin leberkas brisket. Chicken spare ribs beef ribs, pig kevin tongue flank
-                    salami pork belly pork kielbasa shank.
-                    <div className="testimonialCard">
-                      <cite className="testimonialName">David Carley</cite>
-                      <div className="testimonialContact">Captian pc</div>
-                    </div>
-                  </blockquote>
-                </div>
-                <div className="testimonialGroup">
-                  <blockquote ClassName="testimonialInfo">Bacon ipsum dolor amet salami ball tip kevin pastrami chuck shank jowl prosciutto boudin leberkas brisket. Chicken spare ribs beef ribs, pig kevin tongue flank
-                    salami pork belly pork kielbasa shank.
-                    <div className="testimonialCard">
-                      <cite className="testimonialName">David Carley</cite>
-                      <div className="testimonialContact">Captian pc</div>
+                      <div className="testimonialContact">CIO Blitz Pick</div>
                     </div>
                   </blockquote>
                 </div>
@@ -44,33 +27,6 @@ export default React.createClass({
                     <div className="testimonialCard">
                       <cite className="testimonialName">Dave Blodgett</cite>
                       <div className="testimonialContact">Student at The Iron Yard</div>
-                    </div>
-                  </blockquote>
-                </div>
-                <div className="testimonialGroup">
-                  <blockquote ClassName="testimonialInfo">Bacon ipsum dolor amet salami ball tip kevin pastrami chuck shank jowl prosciutto boudin leberkas brisket. Chicken spare ribs beef ribs, pig kevin tongue flank
-                    salami pork belly pork kielbasa shank.
-                    <div className="testimonialCard">
-                      <cite className="testimonialName">David Carley</cite>
-                      <div className="testimonialContact">Captian pc</div>
-                    </div>
-                  </blockquote>
-                </div>
-                <div className="testimonialGroup">
-                  <blockquote ClassName="testimonialInfo">Bacon ipsum dolor amet salami ball tip kevin pastrami chuck shank jowl prosciutto boudin leberkas brisket. Chicken spare ribs beef ribs, pig kevin tongue flank
-                    salami pork belly pork kielbasa shank.
-                    <div className="testimonialCard">
-                      <cite className="testimonialName">David Carley</cite>
-                      <div className="testimonialContact">Captian pc</div>
-                    </div>
-                  </blockquote>
-                </div>
-                <div className="testimonialGroup">
-                  <blockquote ClassName="testimonialInfo">Bacon ipsum dolor amet salami ball tip kevin pastrami chuck shank jowl prosciutto boudin leberkas brisket. Chicken spare ribs beef ribs, pig kevin tongue flank
-                    salami pork belly pork kielbasa shank.
-                    <div className="testimonialCard">
-                      <cite className="testimonialName">David Carley</cite>
-                      <div className="testimonialContact">Captian pc</div>
                     </div>
                   </blockquote>
                 </div>
