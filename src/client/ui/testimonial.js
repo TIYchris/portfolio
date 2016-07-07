@@ -30,6 +30,15 @@ export default React.createClass({
                     </div>
                   </blockquote>
                 </div>
+                <div className="testimonialGroup">
+                  <blockquote ClassName="testimonialInfo">Chris is a easy-going, smart, and get it done kind of guy. He's very easy to work with; not just because he's laid back, but because he knows how to put his
+                    head down and get stuff done. It was an absolute pleasure to have Chris in my class. He's got a very bright future in development ahead of him.
+                    <div className="testimonialCard">
+                      <cite className="testimonialName">Mike Sweeney</cite>
+                      <div className="testimonialContact">Instructor at The Iron Yard</div>
+                    </div>
+                  </blockquote>
+                </div>
               </div>
             </div>
         )
