@@ -20,7 +20,7 @@ var backbone = require("assets/images/logos/backbone.png")
 var socketio = require("assets/images/logos/socketio.gif")
 
 var tiy = require("assets/images/tiy.png")
-var resume = require("file?name=[name].[ext]!assets/docs/ResumeChris.doc")
+var resume = require("file?name=[name].[ext]!assets/docs/ChrisResume.docx")
 
 
 export default React.createClass({
