@@ -61,7 +61,7 @@ export default React.createClass({
                   </div>
                   <div className="card">
                     <img src={ chatApp } className="cardImage" />
-                    <a target="_blank" href="#" className="overlay">
+                    <a target="_blank" href="https://tiychris-chatsocket.herokuapp.com/" className="overlay">
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
@@ -73,7 +73,7 @@ export default React.createClass({
                   </div>
                   <div className="card">
                     <img src={ restaurant } className="cardImage" />
-                    <a target="_blank" href="#" className="overlay">
+                    <a target="_blank" href="http://tiychris-restaurant.herokuapp.com/" className="overlay">
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
