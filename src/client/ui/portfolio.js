@@ -35,7 +35,7 @@ export default React.createClass({
                   </div>
                   <div className="card">
                     <img src={ foodtruck } className="cardImage" />
-                    <a target="_blank" href="#" className="overlay">
+                    <a target="_blank" href="https://tiychris-foodtruck.herokuapp.com/" className="overlay">
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
@@ -86,7 +86,7 @@ export default React.createClass({
                   </div>
                   <div className="card" className="card">
                     <img src={ war } className="cardImage" />
-                    <a target="_blank" href="#" className="overlay">
+                    <a target="_blank" href="https://tiychris-war.herokuapp.com/" className="overlay">
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
@@ -98,7 +98,7 @@ export default React.createClass({
                   </div>
                   <div className="card">
                     <img src={ sk8ter } className="cardImage" />
-                    <a target="_blank" href="#" className="overlay">
+                    <a target="_blank" href="https://tiychris-skater.herokuapp.com/" className="overlay">
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />
@@ -110,7 +110,7 @@ export default React.createClass({
                   </div>
                   <div className="card">
                     <img src={ poker } className="cardImage" />
-                    <a target="_blank" href="http://tiychris.github.io/poker/" className="overlay">
+                    <a target="_blank" href="https://tiychris-poker.herokuapp.com/" className="overlay">
                       <div className="cardText">
                         <div className="cardInfo">
                           <img src={ tiy } className="tiyLogo" />

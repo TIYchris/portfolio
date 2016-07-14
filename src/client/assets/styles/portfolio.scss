@@ -19,8 +19,8 @@
     text-align: center;
 }
 .cardImage{
-    height: 350px;
-    width: 600px;
+    height: 300px;
+    width: 550px;
     box-shadow: 3px 3px 5px #192B34;
     border: 1px solid #222222;
 }
@@ -41,7 +41,7 @@
     position:absolute;
     right: 0; bottom: 5px;
     top:0; left:0;
-    opacity: 0;
+    opacity: 1;
     background:rgba(0,0,0,0.7);
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -51,7 +51,7 @@
     opacity:1;
 }
 .cardText{
-    padding: 160px 40px 0 40px;
+    padding: 75px 30px 0 40px;
 }
 .tiyLogo{
     height: 60px;
