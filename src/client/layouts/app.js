@@ -31,7 +31,7 @@ export default ({
           <div className="footerContainer">
             <div className="socialMedia">
               <a href="https://github.com/TIYchris"><i className="fa fa fa-github fa-2x"></i></a>
-              <a href=""><i className="fa fa-linkedin fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/chris-bergstrom-7b8761122?trk=hp-identity-name"><i className="fa fa-linkedin fa-2x"></i></a>
               <a href="https://twitter.com/chrislbergstrom"><i className="fa fa-twitter fa-2x"></i></a>
             </div>
             <a className="myEmail" href="mailto:chrisbergstromis@gmail.com" target="_top">chrisbergstromis@gmail.com</a>
