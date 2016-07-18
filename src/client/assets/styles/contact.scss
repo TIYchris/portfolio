@@ -88,7 +88,7 @@ input:focus ~ label, input:valid ~ label 		{
   font-size:14px;
   color:#4B4881;
 }
-textarea:focus ~ label, input:valid ~ label 		{
+textarea:focus ~ label, textarea:valid ~ label 		{
   top:-60px;
   font-size:14px;
   color:#4B4881;

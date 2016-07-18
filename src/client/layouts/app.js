@@ -1,4 +1,6 @@
 import React from "react";
+import Notifications from "react-notify-toast";
+
 
 require("normalize.scss/normalize.scss");
 require("assets/styles/app.scss");
@@ -11,6 +13,7 @@ export default ({
     return (
         <div>
           <div className="mainHeader">
+            <Notifications />
             <div className="navContainer">
               <a href="#" className="logoNav">
                 <img src={ image } className="logoImage" />
