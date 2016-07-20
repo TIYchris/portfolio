@@ -14,16 +14,12 @@ var redrock = require("assets/images/Background.jpg")
 export default React.createClass({
     render: function() {
         return (
-            <div>
-              <div className="dataContainer">
+            <div className="dataContainer">
+              <div className="heroContainer">
                 <img src={ redrock } className="chrisImage" />
-                <div className="greeting">
-                  <div className="greetingContainer">
-                    <div className="dataGreeting">Hello, my name is Chris Bergstrom </div>
-                    <div className="dataGreeting">and I am a Junior Developer in Las Vegas, NV</div>
-                  </div>
+                <div className="greetingContainer">
+                  <div className="dataGreeting">Hello, my name is Chris Bergstrom and I am a Junior Developer in Las Vegas, NV</div>
                 </div>
-                <img src={ redrock } className="chrisImage" style={ { position: "inherit", display: "block", visibility: "hidden" } } />
               </div>
               <About/>
               <Portfolio/>

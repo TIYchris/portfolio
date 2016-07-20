@@ -1,54 +1,138 @@
 .dataContainer {
     width: 100%;
 }
+.heroContainer {
+    padding-top: 140px;
+    position: relative;
+}
 .chrisImage{
-    z-index: -10;
-    position: absolute;
-    width: 100%;
-    height: auto;
+    display: block;
+    width: 100vw;
+    object-fit: cover;
 }
 
-.dataTitle{
-    font-size: 75px;
-    text-align: center;
-    padding-top: 40px;
-    margin-bottom: 5px;
-}
-.dataTitleContainer{
-    width: 100%;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    background-color: #8899AA;
-    padding-bottom: 40px;
-}
 .greeting {
     position: absolute;
     width: 100%;
 }
 .greetingContainer {
-    position: relative;
-    top: 400px;
+    position: absolute;
+    top: 45%;
     text-align: center;
-    width:100%;
+    width:50%;
+    left: 25%;
 }
 .dataGreeting{
     color: #FFFDF7;
-    font-size: 40px;
+    font-size: 3vw;
 }
 .skills{
     font-size: 16px;
     text-align: center;
     margin-bottom: 20px;
 }
-.bull{
-    padding: 0px 15px;
-    font-size: 16px;
-}
 
-.dataPage{
-    margin-top:-1px;
-}
 h3 {
     font-weight: normal;
+}
+
+@media only screen and (max-width: 800px) {
+    .dataTitle , .portfolioTitle, .testimonialTitle, .contactTitle{
+        font-size: 30px;
+    }
+    .about{
+        width:90%;
+    }
+    .skillsIcons{
+        width:90%;
+    }
+    .goalsSection{
+        width:90%;
+    }
+    .cardImage{
+        height: 150px;
+        width: 275px;
+    }
+    .card:hover > .overlay {
+        opacity: 0
+    }
+    .testimonialGroup{
+        width: 540px;
+        height: 205px;
+        padding: 30px;
+        margin-left:15px;
+    }
+    blockquote{
+        font-size: 15px;
+        width: 450px;
+    }
+    blockquote:before {
+        left: 0px;
+        top: 0px;
+    }
+
+}
+@media only screen and (max-width: 600px){
+
+    .cardImage{
+        height: 100px;
+        width: 183px;
+    }
+    .testimonialGroup{
+        width: 480px;
+        height: 190px;
+    }
+    blockquote{
+        font-size: 14px;
+        width: 400px;
+    }
+    blockquote:before {
+        left: 0px;
+        top: 0px;
+    }
+}
+@media only screen and (max-device-width: 320px){
+    .logoNav{
+        margin: 0 auto;
+    }
+    .dataGreeting{
+        padding-top: 75px;
+    }
+    .about{
+        width: 95%;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0px 0;
+    }
+    .aboutDescription{
+        display:block;
+    }
+    .headshot {
+        margin-left: 95px;
+    }
+    .mySkills{
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+    .skillsIcons{
+        width:100%;
+    }
+    .logos{
+        height: 75px;
+    }
+    .dataTitleContainer{
+        padding-bottom: 0px;
+    }
+    .goalsSection{
+        width: 95%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contactText{
+        width: 90%;
+        font-size: 30px;
+    }
+    .links{
+        display: none;
+    }
 }
