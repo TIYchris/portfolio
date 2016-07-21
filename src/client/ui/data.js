@@ -18,7 +18,7 @@ export default React.createClass({
               <div className="heroContainer">
                 <img src={ redrock } className="chrisImage" />
                 <div className="greetingContainer">
-                  <div className="dataGreeting">Hello, my name is Chris Bergstrom and I am a Junior Developer in Las Vegas, NV</div>
+                  <div className="dataGreeting">Hello, my name is Chris Bergstrom and I am a Junior Developer in <br />Las Vegas, NV</div>
                 </div>
               </div>
               <About/>

@@ -123,7 +123,7 @@ export default React.createClass({
                         or no code experience and gets them up to speed. I spent around 70 hours a week coding to keep up during this 12 week program. Much of my portfolio consists
                         of projects I completed when was a student of The Iron Yard.
                       </p>
-                      <h3>Personal</h3>
+                      <h3 className="personal">Personal</h3>
                       <p className="Personal">When I am not banging away at my keyboard, I enjoy spending time with the family, watching my kids sporting events, watching live music and being the head
                         chef in my kitchen. I am a big fan of MMA and the NFL (Go Vikings!). Other family activities I enjoy include bowling, swimming, hiking, camping, movies,
                         card and board games.</p>

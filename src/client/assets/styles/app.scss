@@ -1,4 +1,4 @@
-
+@import "../../../../node_modules/include-media/dist/_include-media.scss";
 
 body{
     font-family: Georgia, serif;
@@ -40,11 +40,17 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    @include media('<desktop') {
+        padding: 0 5%;
+    }
 }
 .links{
     color: #FFFDF7;
     margin-left: 25px;
     text-decoration: none;
+    @include media(">phone", "<=tablet") {
+        display: none;
+    }
 }
 .footerContainer{
     width: 100%;

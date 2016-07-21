@@ -1,3 +1,5 @@
+@import "../../../../node_modules/include-media/dist/_include-media.scss";
+
 .contactStop{
     display: block;
     position: relative;
@@ -9,6 +11,7 @@
     padding-bottom: 40px;
 }
 .contactTitle{
+    color: rgba(0, 0, 0, 0.75);
     font-size: 4vw;
     padding: 80px 0 60px 0;
     text-align: center;
@@ -24,12 +27,18 @@
   -webkit-box-shadow: inset 0px 0px 10px 0px #39474E;
   -moz-box-shadow: inset 0px 0px 10px 0px #39474E;
   -o-box-shadow: inset 0px 0px 10px 0px #39474E;
+  @include media(">phone", "<=tablet") {
+      width: 620px;
+  }
 }
 .contactText{
     width: 500px;
     margin: -30px auto 30px;
     color: #555555;
-    font-size: 15px;
+    @include media(">phone", "<=tablet") {
+        width: 600px;
+        font-size: 14px;
+    }
 }
 .button{
     height:40px;
@@ -56,6 +65,9 @@ input 				{
   border:none;
   border-bottom:1px solid #777;
   background-color: #E5E9EC;
+  @include media(">phone", "<=tablet") {
+      font-size: 40px;
+  }
 }
 input:focus 		{ outline:none; }
 textarea:focus 		{ outline:none; }
@@ -67,6 +79,9 @@ textarea {
     border:none;
     border-bottom:1px solid #777;
     background-color: #E5E9EC;
+    @include media(">phone", "<=tablet") {
+        font-size: 40px;
+    }
 }
 /* LABEL ======================================= */
 label 				 {
@@ -87,11 +102,17 @@ input:focus ~ label, input:valid ~ label 		{
   top:-20px;
   font-size:14px;
   color:#4B4881;
+  @include media(">phone", "<=tablet") {
+      font-size:16px;
+  }
 }
 textarea:focus ~ label, textarea:valid ~ label 		{
   top:-60px;
   font-size:14px;
   color:#4B4881;
+  @include media(">phone", "<=tablet") {
+      font-size:16px;
+  }
 }
 /* BOTTOM BARS ================================= */
 .bar 	{
