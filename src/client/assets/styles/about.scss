@@ -35,6 +35,7 @@
     @include media(">phone", "<=tablet") {
         font-size:25px;
         line-height: 30px;
+        margin-left: 70px;
     }
 }
 .aboutStop{
