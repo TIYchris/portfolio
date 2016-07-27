@@ -40,15 +40,15 @@
     padding: 60px;
     box-shadow: 3px 3px 5px #192B34;
     @include media("<=tablet") {
-        width: 700px;
+        width: 630px;
         height: 315px;
-        margin-left: -8%;
+        margin-left: -28px;
     }
     @include media("<tablet") {
         width: 200px;
         height: 330px;
-        margin: 0 auto;
         margin-bottom: 20px;
+        margin-left: 0px;
         }
 }
 blockquote {
