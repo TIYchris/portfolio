@@ -4,6 +4,18 @@ body{
     font-family: Georgia, serif;
     color: #222222;
 }
+
+.toast-notification {
+    @include media('<tablet') {
+        font-size: 10px;
+        width: 95% !important;
+    }
+    @include media('<desktop') {
+        font-size: 18px;
+        width: 95% !important;
+    }
+}
+
 .mainHeader{
     height: 140px;
     width: 100%;
@@ -48,7 +60,7 @@ body{
     color: #FFFDF7;
     margin-left: 25px;
     text-decoration: none;
-    @include media(">phone", "<=tablet") {
+    @include media("<=tablet") {
         display: none;
     }
 }

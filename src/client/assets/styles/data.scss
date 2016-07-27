@@ -24,12 +24,18 @@
     width:50%;
     left: 25%;
     @include media('<desktop') {
-        top: 55%
+        top: 55%;
+    }
+    @include media("<=tablet") {
+        top: 63%;
     }
 }
 .dataGreeting{
     color: #FFFDF7;
     font-size: 3vw;
+    @include media("<=tablet") {
+        font-size: 15px;
+        }
 }
 .skills{
     font-size: 16px;

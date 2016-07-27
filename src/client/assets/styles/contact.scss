@@ -15,6 +15,9 @@
     font-size: 4vw;
     padding: 80px 0 60px 0;
     text-align: center;
+    @include media("<=tablet") {
+        font-size: 35px;
+        }
 }
 .formContact 		{
   font-family:'Roboto';
@@ -27,23 +30,32 @@
   -webkit-box-shadow: inset 0px 0px 10px 0px #39474E;
   -moz-box-shadow: inset 0px 0px 10px 0px #39474E;
   -o-box-shadow: inset 0px 0px 10px 0px #39474E;
-  @include media(">phone", "<=tablet") {
+  @include media("<=tablet") {
       width: 620px;
+  }
+  @include media("<tablet") {
+      width:221px;
   }
 }
 .contactText{
     width: 500px;
     margin: -30px auto 30px;
     color: #555555;
-    @include media(">phone", "<=tablet") {
+    @include media("<=tablet") {
         width: 600px;
         font-size: 14px;
+    }
+    @include media("<tablet") {
+        width:300px;
     }
 }
 .button{
     height:40px;
     width: 150px;
     margin-top: 20px;
+    @include media("<tablet") {
+        margin-top: 0px;
+    }
 }
 .socialMedia{
     margin-bottom:10px;
@@ -65,22 +77,32 @@ input 				{
   border:none;
   border-bottom:1px solid #777;
   background-color: #E5E9EC;
-  @include media(">phone", "<=tablet") {
+  @include media("<desktop") {
       font-size: 40px;
+      width:600px;
+  }
+  @include media("<tablet") {
+      font-size:15px;
+      width:220px;
   }
 }
 input:focus 		{ outline:none; }
 textarea:focus 		{ outline:none; }
 textarea {
     font-size:18px;
-    padding:20px 10px 10px 5px;
+    padding:20px 10px 0px 5px;
     display:block;
     width:475px;
     border:none;
     border-bottom:1px solid #777;
     background-color: #E5E9EC;
-    @include media(">phone", "<=tablet") {
+    @include media("<desktop") {
         font-size: 40px;
+        width:600px;
+    }
+    @include media("<tablet") {
+        font-size:12px;
+        width:220px;
     }
 }
 /* LABEL ======================================= */
@@ -95,6 +117,9 @@ label 				 {
   transition:0.2s ease all;
   -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
+  @include media("<tablet") {
+      font-size:12px;
+  }
 }
 
 /* active state */
@@ -102,16 +127,22 @@ input:focus ~ label, input:valid ~ label 		{
   top:-20px;
   font-size:14px;
   color:#4B4881;
-  @include media(">phone", "<=tablet") {
+  @include media("<desktop") {
       font-size:16px;
+  }
+  @include media("<tablet") {
+      font-size:12px;
   }
 }
 textarea:focus ~ label, textarea:valid ~ label 		{
   top:-60px;
   font-size:14px;
   color:#4B4881;
-  @include media(">phone", "<=tablet") {
+  @include media("<desktop") {
       font-size:16px;
+  }
+  @include media("<tablet") {
+      font-size:12px;
   }
 }
 /* BOTTOM BARS ================================= */
@@ -119,6 +150,12 @@ textarea:focus ~ label, textarea:valid ~ label 		{
     position:relative;
     display:block;
     width: 490px;
+    @include media("<tablet") {
+        width:220px;
+    }
+    @include media("<desktop") {
+        width:615px;
+    }
 }
 .bar:before, .bar:after 	{
   content:'';
@@ -200,6 +237,9 @@ a.button{
     box-shadow: 0px 2px 1px white inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
     -webkit-transition:box-shadow 0.5s;
     text-align: center;
+    @include media("<tablet") {
+        margin-top: 40px;
+    }
 }
 a.button i{
     float: right;

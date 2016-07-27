@@ -27,12 +27,12 @@ export default React.createClass({
                 self.refs.webSite.value = "";
                 self.refs.description.value = "";
                 // Clear the form, say "Success"
-                notify.show("An email has been sent to Chris, he will be in contact with you shortly", "success");
+                notify.show("An email has been sent to Chris, he will be in contact with you shortly", "success", 60000);
             })
             .catch(function(err) {
                 console.log(err.toString());
                 // Let the user know something went wrong.
-                notify.show("Something went wrong, check your entries or try again later", "error");
+                notify.show("Something went wrong, check your entries or try again later", "error", 60000);
             });
     },
 

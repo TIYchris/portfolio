@@ -43,7 +43,7 @@ export default React.createClass({
               <div className="aboutContainer">
                 <div className="about">
                   <div className="aboutDescription">
-                    <div>
+                    <div className="headshotContainer">
                       <img src={ headshot } className="headshot" />
                     </div>
                     <div className="description">Junior front-end developer, recent graduate of The Iron Yard.  The skills I acquired at The Iron Yard were invaluable, and the curriculum's heavy focus on
@@ -100,12 +100,12 @@ export default React.createClass({
                         <div className="logoDescription">Socket.io</div>
                       </div>
                       <div>
-                        <img src={ google } className="logos" />
-                        <div className="logoDescription">Google Maps API</div>
-                      </div>
-                      <div>
                         <img src={ animation } className="logos" />
                         <div className="logoDescription">Animation</div>
+                      </div>
+                      <div>
+                        <img src={ google } className="logos" />
+                        <div className="logoDescription">Google Maps API</div>
                       </div>
                     </div>
                   </div>

@@ -14,28 +14,39 @@
     @include media('<desktop') {
         width:90%;
     }
-    @include media('>phone', "<=tablet") {
+    @include media("<=tablet") {
         font-size: 20px;
         line-height: 25px;
         padding: 0 0 80px;
     }
-
 }
+
+.headshotContainer {
+    @include media("<=tablet") {
+        text-align: center;
+   }
+}
+
 .headshot{
     height: 120px;
     width: auto;
     border: 3px solid #222222;
 }
+
 .aboutDescription{
     display: flex;
     margin-bottom: 10px;
+    @include media("<=tablet") {
+        flex-direction: column;
+    }
 }
+
 .description{
     margin-left: 30px;
-    @include media(">phone", "<=tablet") {
-        font-size:25px;
+    @include media("<=tablet") {
+        font-size: 15px;
         line-height: 30px;
-        margin-left: 70px;
+        margin-left: 0;
     }
 }
 .aboutStop{
@@ -48,16 +59,16 @@
     height: 80px;
     width: auto;
     margin: 30px 40px;
+    @include media("<tablet") {
+        margin: 30px 7px;
+        height: 70px;
+    }
 }
 .logoList{
     display: flex;
     flex-flow: wrap;
     text-align: center;
     justify-content: space-around;
-    @include media("<desktop") {
-        width:90%;
-        padding-left: 20px;
-    }
 }
 .logoDescription{
     margin-top: -30px;
@@ -85,9 +96,9 @@
     font-size: 18px;
     line-height: 26px;
     height: 100%;
-    @include media(">phone", "<=tablet") {
+    @include media("<=tablet") {
         width: 95%;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 25px;
     }
     @include media('<desktop') {
@@ -161,7 +172,7 @@
     flex-direction: column;
     background-color: #8899AA;
     padding-bottom: 40px;
-    @include media(">phone", "<=tablet") {
+    @include media("<=tablet") {
         padding-bottom: 0px;
         height: 240px;
     }
@@ -172,5 +183,7 @@
     text-align: center;
     padding-top: 40px;
     margin-bottom: 5px;
-
+    @include media("<=tablet") {
+        font-size: 35px;
+        }
 }
