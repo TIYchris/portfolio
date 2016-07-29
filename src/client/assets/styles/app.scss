@@ -6,13 +6,9 @@ body{
 }
 
 .toast-notification {
-    @include media('<tablet') {
-        font-size: 10px;
-        width: 95% !important;
-    }
     @include media('<desktop') {
-        font-size: 18px;
-        width: 95% !important;
+        font-size: 9px;
+        width: 100% !important;
     }
 }
 
